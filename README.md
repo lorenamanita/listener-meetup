@@ -3,11 +3,9 @@ ___
 
 
 
-The service will connect to the Meetup Long-Polling RSVP stream:
+The service will connect to the Meetup Long-Polling RSVP stream ([Meetup Long-Polling RSVP Stream](http://stream.meetup.com/2/rsvps)) and stores the information acquired on a RDBMS database in MariaDb [linuxserver/mariadb:latest](https://hub.docker.com/r/linuxserver/mariadb)
 
-[Meetup Long-Polling RSVP Stream](http://stream.meetup.com/2/rsvps)
 
-Once started, the service will starts flushing the stream to MySQL database `meetup`.
 
 ---
 #### `1. get_chunk_size`
@@ -56,8 +54,8 @@ Within this function we setup the filter in use by the listen() function. It wil
 filter_data(data)
 ```
 
-:param: json string
-:return: json string
+`:param: json string`
+`:return: json string`
 
 #### `7. database schema`
 
