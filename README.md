@@ -68,3 +68,7 @@ CREATE TABLE `cities` (
   PRIMARY KEY (`idx`)
 ) ENGINE=InnoDB AUTO_INCREMENT=47322 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 ```
+
+#### `8. Static code analysis results`
+
+The code has passed static code analisys with pylint (PEP8) with 10/10 score.
