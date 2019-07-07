@@ -59,3 +59,18 @@ filter_data(data)
 :param: json string
 :return: json string
 
+#### `7. database schema`
+
+```
+CREATE TABLE `cities` (
+  `idx` int(11) NOT NULL AUTO_INCREMENT,
+  `city` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `lat` float(5,2) DEFAULT NULL,
+  `lon` float(5,2) DEFAULT NULL,
+  `date` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `eid` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `gid` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  `mid` varchar(255) COLLATE utf8_bin DEFAULT NULL,
+  PRIMARY KEY (`idx`)
+) ENGINE=InnoDB AUTO_INCREMENT=47322 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+```
