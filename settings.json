@@ -1,0 +1,8 @@
+{
+  "http_host": "stream.meetup.com",
+  "stream": "/2/rsvps",
+  "db_host" : "mariadb",
+  "db_user" : "root",
+  "db_password" : "1234567890",
+  "db_name" : "meetup"
+}
