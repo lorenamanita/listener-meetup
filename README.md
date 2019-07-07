@@ -1,11 +1,7 @@
 # Meetup RSVP stream listener
 ___
 
-
-
-The service will connect to the Meetup Long-Polling RSVP stream ([Meetup Long-Polling RSVP Stream](http://stream.meetup.com/2/rsvps)) and stores the information acquired on a RDBMS database in MariaDb [linuxserver/mariadb:latest](https://hub.docker.com/r/linuxserver/mariadb)
-
-
+The service will connect to the Meetup Long-Polling RSVP stream ([Meetup Long-Polling RSVP Stream](http://stream.meetup.com/2/rsvps)) and stores the information acquired on a RDBMS database in MariaDb container ([linuxserver/mariadb:latest](https://hub.docker.com/r/linuxserver/mariadb)). For information about the database schema, please go to section 7.
 
 ---
 #### `1. get_chunk_size`
